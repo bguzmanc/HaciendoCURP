@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"HaciendoCURP","l":"CrearCURP"},{"p":"HaciendoCURP","l":"Interfaz"},{"p":"HaciendoCURP","l":"Main"}];updateSearchResults();
