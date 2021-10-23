@@ -1,6 +1,6 @@
-HaciendoCURP/Main.java
- HaciendoCURP.Main
 HaciendoCURP/CrearCURP.java
  HaciendoCURP.CrearCURP
+HaciendoCURP/Main.java
+ HaciendoCURP.Main
 HaciendoCURP/Interfaz.java
  HaciendoCURP.Interfaz
