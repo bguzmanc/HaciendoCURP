@@ -1,9 +1,0 @@
--classpath '/Users/chilamguzman/Documents/Java Soft/HaciendoCURP/build/classes/java/main:/Users/chilamguzman/Documents/Java Soft/HaciendoCURP/build/resources/main'
--d '/Users/chilamguzman/Documents/Java Soft/HaciendoCURP/build/docs/javadoc'
--doctitle 'HaciendoCURP API'
--notimestamp 
--quiet 
--windowtitle 'HaciendoCURP API'
-'/Users/chilamguzman/Documents/Java Soft/HaciendoCURP/src/main/java/HaciendoCURP/Main.java'
-'/Users/chilamguzman/Documents/Java Soft/HaciendoCURP/src/main/java/HaciendoCURP/Interfaz.java'
-'/Users/chilamguzman/Documents/Java Soft/HaciendoCURP/src/main/java/HaciendoCURP/CrearCURP.java'

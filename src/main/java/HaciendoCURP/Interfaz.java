@@ -55,7 +55,9 @@ public class Interfaz extends JFrame implements ActionListener {
             "1961","1962","1963","1964","1965","1966","1967","1968","1969","1970","1971",
             "1972","1973","1974","1975","1976","1977","1978","1979","1980","1981","1982",
             "1983","1984","1985","1986","1987","1988","1989","1990","1991","1992","1993",
-            "1994","1995","1996","1997","1998","1999","2000"};
+            "1994","1995","1996","1997","1998","1999","2000","2001","2002","2003","2004",
+            "2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015",
+            "2016","2017","2018","2019","2020","2021"};
     private JButton sub;
     private JButton reset;
     private JLabel curp;
@@ -94,6 +96,7 @@ public class Interfaz extends JFrame implements ActionListener {
                                            "ZACATECAS",
                                            "SERV. EXTERIOR MEXICANO",
                                            "NACIDO EN EL EXTRANJERO"};
+    private JButton next;
     
     /********************************
     *                               *
@@ -102,7 +105,7 @@ public class Interfaz extends JFrame implements ActionListener {
     ********************************/
     public Interfaz()
     {
-        setTitle("GeneraciÃ³n de CURP");
+        setTitle("Generación de CURP");
         setBounds(300, 90, 500, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
@@ -110,7 +113,7 @@ public class Interfaz extends JFrame implements ActionListener {
         c = getContentPane();
         c.setLayout(null);
  
-        title = new JLabel("GeneraciÃ³n de CURP");
+        title = new JLabel("Generación de CURP");
         title.setFont(new Font("Arial", Font.PLAIN, 22));
         title.setSize(300, 30);
         title.setLocation(140, 30);
@@ -238,6 +241,14 @@ public class Interfaz extends JFrame implements ActionListener {
         txt_curp.setLocation(200, 450);
         c.add(txt_curp);
         
+        //Botón de Siguiente
+        next = new JButton("Siguiente");
+        next.setFont(new Font("Arial", Font.PLAIN, 15));
+        next.setSize(100, 20);
+        next.setLocation(190, 500);
+        next.addActionListener(this);
+        c.add(next);
+        
         setVisible(true);
     }
     
@@ -248,24 +259,50 @@ public class Interfaz extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent eventPushed) {
         String CURP = "";
         if (eventPushed.getSource() == sub) {
-            CrearCURP hacerCURP = new CrearCURP();
-            CURP = CURP + hacerCURP.validacionAlfabetica(txt_nombre.getText().toUpperCase(), txt_apaterno.getText().toUpperCase(), txt_amaterno.getText().toUpperCase());
-            
-            String dia = (String) date.getSelectedItem();
-            String mes = (String) month.getSelectedItem();
-            String anio = (String) year.getSelectedItem();
-            CURP = CURP + hacerCURP.validacionNumerica(dia, mes, anio);
-            
-            String sexo = "";
-            if(male.isSelected()){
-                sexo = "H";
+            /********************************
+            *                               *
+            * Primero validamos los campos  *
+            * que sean de tipo texto        *
+            *                               *
+            ********************************/
+            Validaciones DoValidations = new Validaciones();
+            if(DoValidations.validarTextField(txt_nombre.getText())){
+                if(DoValidations.validarTextField(txt_apaterno.getText())){
+                    if(DoValidations.validarTextField(txt_amaterno.getText())){
+                        System.out.println("SEGUIMOS");
+                        
+                        CrearCURP hacerCURP = new CrearCURP();
+                        CURP = CURP + hacerCURP.validacionAlfabetica(txt_nombre.getText().toUpperCase(), txt_apaterno.getText().toUpperCase(), txt_amaterno.getText().toUpperCase());
+                        
+                        String dia = (String) date.getSelectedItem();
+                        String mes = (String) month.getSelectedItem();
+                        String anio = (String) year.getSelectedItem();
+                        CURP = CURP + hacerCURP.validacionNumerica(dia, mes, anio);
+
+                        String sexo = "";
+                        if(male.isSelected()){
+                            sexo = "H";
+                        } else {
+                            sexo = "M";
+                        }
+                        String entidad = (String) combo_entidadnac.getSelectedItem();
+                        CURP = CURP + hacerCURP.validacionAlfabeticaPte2(sexo, entidad, txt_nombre.getText().toUpperCase(), txt_apaterno.getText().toUpperCase(), txt_amaterno.getText().toUpperCase());
+                        
+                        txt_curp.setText(CURP);                        
+                    } else {
+                        JOptionPane.showMessageDialog(null, "Verifique los datos ingresados en Apellido Materno");
+                    }
+                } else {
+                    JOptionPane.showMessageDialog(null, "Verifique los datos ingresados en Apellido Paterno");
+                }
             } else {
-                sexo = "M";
+                JOptionPane.showMessageDialog(null, "Verifique los datos ingresados en Nombre");
             }
-            String entidad = (String) combo_entidadnac.getSelectedItem();
-            CURP = CURP + hacerCURP.validacionAlfabeticaPte2(sexo, entidad, txt_nombre.getText().toUpperCase(), txt_apaterno.getText().toUpperCase(), txt_amaterno.getText().toUpperCase());
+        } else if (eventPushed.getSource() == next) {
+            setVisible(false);
+            Interfaz2 InterfazDatosGenerales = new Interfaz2();
+            InterfazDatosGenerales.setNombreCompleto(txt_nombre.getText().toUpperCase(), txt_apaterno.getText().toUpperCase(), txt_amaterno.getText().toUpperCase());
         }
-        txt_curp.setText(CURP);
     }
     
     

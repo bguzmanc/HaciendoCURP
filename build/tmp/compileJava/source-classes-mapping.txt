@@ -2,5 +2,9 @@ HaciendoCURP/CrearCURP.java
  HaciendoCURP.CrearCURP
 HaciendoCURP/Main.java
  HaciendoCURP.Main
+HaciendoCURP/Validaciones.java
+ HaciendoCURP.Validaciones
+HaciendoCURP/Interfaz2.java
+ HaciendoCURP.Interfaz2
 HaciendoCURP/Interfaz.java
  HaciendoCURP.Interfaz

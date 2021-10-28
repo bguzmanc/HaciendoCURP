@@ -125,7 +125,10 @@ public class CrearCURP {
         digito4 = String.valueOf(arrayNombre[0]);
         
         //Concatenación
-        String validacionAlfabetica = digito1 + digito2 + digito3 + digito4;
+        String cadenaCompleta = digito1 + digito2 + digito3 + digito4;
+        
+        Validaciones validarCURPGrosero = new Validaciones();
+        String validacionAlfabetica = validarCURPGrosero.validandoCURPGrosero(cadenaCompleta);
         
         return validacionAlfabetica;
     }
