@@ -179,18 +179,19 @@ public class Interfaz2 extends JFrame implements ActionListener {
     
     
     public void actionPerformed(ActionEvent event) {
-        
         if (event.getSource() == btn_cp) {
             System.out.println("vamos  bien xD");
             obtenerCols();
+        } else if (event.getSource() == aceptar) {
+            
+            double salario = Double.valueOf(txt_salario.getText());
+            double gastos_fijos = Double.valueOf(txt_gastos.getText());
+            double remanente = salario - gastos_fijos;
+            txt_remanente.setText(String.valueOf(remanente));
         }
-        
     }
     
-    public void obtenerCols(){
-        
-        System.out.println("HERE WILL WS");
-        
+    public void obtenerCols(){        
         try {
             String endPoint = hostWS + pathWS;
             URL url = new URL(endPoint + txt_cp.getText());
@@ -203,21 +204,19 @@ public class Interfaz2 extends JFrame implements ActionListener {
             InputStreamReader in = new InputStreamReader(conn.getInputStream());
             BufferedReader br = new BufferedReader(in);
             
-            ArrayList<String> ar = new ArrayList<String>();            
             String output;
             while ((output = br.readLine()) != null) {
-                ar.add(output);
-                //System.out.println(output);
+                String[] parts = output.split(",");
+                combo_colonia.removeAllItems();
+                for (int i = 0; i<=(parts.length)-1; i++) {
+                    System.out.println(parts[i]);
+                    combo_colonia.addItem(parts[i]);
+                }
             }
             conn.disconnect();
-            combo_colonia.addItem(ar.toArray());
-            System.out.println(ar);
         } catch (Exception e) {
             System.out.println("Exception in NetClientGet:- " + e);
         }
-        
-        
-        
     }
     
 }
