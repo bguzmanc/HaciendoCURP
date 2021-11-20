@@ -105,7 +105,7 @@ public class Interfaz extends JFrame implements ActionListener {
     ********************************/
     public Interfaz()
     {
-        setTitle("Generación de CURP");
+        setTitle("GeneraciÃ³n de CURP");
         setBounds(300, 90, 500, 600);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
@@ -113,7 +113,7 @@ public class Interfaz extends JFrame implements ActionListener {
         c = getContentPane();
         c.setLayout(null);
  
-        title = new JLabel("Generación de CURP");
+        title = new JLabel("GeneraciÃ³n de CURP");
         title.setFont(new Font("Arial", Font.PLAIN, 22));
         title.setSize(300, 30);
         title.setLocation(140, 30);
@@ -241,7 +241,7 @@ public class Interfaz extends JFrame implements ActionListener {
         txt_curp.setLocation(200, 450);
         c.add(txt_curp);
         
-        //Botón de Siguiente
+        //Botï¿½n de Siguiente
         next = new JButton("Siguiente");
         next.setFont(new Font("Arial", Font.PLAIN, 15));
         next.setSize(100, 20);

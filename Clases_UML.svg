@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="220px" preserveAspectRatio="none" style="width:1756px;height:220px;" version="1.1" viewBox="0 0 1756 220" width="1756px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fcjtt10v42m92" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0"/>
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/>
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/>
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/>
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[c30ec1b7dbf773c7bd0d853af9990cf8]
+cluster HaciendoCURP-->
+        <polygon fill="#FFFFFF" filter="url(#fcjtt10v42m92)" points="16,6,127,6,134,28.4883,573,28.4883,573,213,16,213,16,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="134" y1="28.4883" y2="28.4883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="20" y="21.5352">HaciendoCURP</text>
+        <!--MD5=[0d852700fdad35b7061d461d6907a324]
+cluster java.io-->
+        <polygon fill="#FFFFFF" filter="url(#fcjtt10v42m92)" points="597,6,649,6,656,28.4883,931,28.4883,931,105,597,105,597,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="597" x2="656" y1="28.4883" y2="28.4883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="46" x="601" y="21.5352">java.io</text>
+        <!--MD5=[aa8f7b917213fcc1c2766e2d59b49067]
+cluster java.lang-->
+        <polygon fill="#FFFFFF" filter="url(#fcjtt10v42m92)" points="955,6,1024,6,1031,28.4883,1051,28.4883,1051,105,955,105,955,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="955" x2="1031" y1="28.4883" y2="28.4883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="959" y="21.5352">java.lang</text>
+        <!--MD5=[ed2e990bb8b1341b3aaedff98fe17cdd]
+cluster java.net-->
+        <polygon fill="#FFFFFF" filter="url(#fcjtt10v42m92)" points="1075,6,1136,6,1143,28.4883,1338,28.4883,1338,105,1075,105,1075,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1075" x2="1143" y1="28.4883" y2="28.4883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="1079" y="21.5352">java.net</text>
+        <!--MD5=[7db3c59d38ae5b37b484eb2df9368145]
+cluster java.util-->
+        <polygon fill="#FFFFFF" filter="url(#fcjtt10v42m92)" points="1362,6,1425,6,1432,28.4883,1581,28.4883,1581,105,1362,105,1362,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1362" x2="1432" y1="28.4883" y2="28.4883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="1366" y="21.5352">java.util</text>
+        <!--MD5=[535aab4de90d4dfa371a9b40d5438fc3]
+cluster javax.swing-->
+        <polygon fill="#FFFFFF" filter="url(#fcjtt10v42m92)" points="1605,6,1694,6,1701,28.4883,1739,28.4883,1739,105,1605,105,1605,6" style="stroke:#000000;stroke-width:1.5;"/>
+        <line style="stroke:#000000;stroke-width:1.5;" x1="1605" x2="1701" y1="28.4883" y2="28.4883"/>
+        <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="1609" y="21.5352">javax.swing</text>
+        <!--MD5=[8b5c1f5320e88b352e321cfb250e685e]
+class HaciendoCURP.CrearCURP-->
+        <rect codeLine="1" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="HaciendoCURP.CrearCURP" style="stroke:#A80036;stroke-width:1.5;" width="95" x="262.5" y="41"/>
+        <ellipse cx="277.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M279.9731,63.1431 Q279.3921,63.4419 278.7529,63.5913 Q278.1138,63.7407 277.4082,63.7407 Q274.9014,63.7407 273.5815,62.0889 Q272.2617,60.437 272.2617,57.3159 Q272.2617,54.1865 273.5815,52.5347 Q274.9014,50.8828 277.4082,50.8828 Q278.1138,50.8828 278.7612,51.0322 Q279.4087,51.1816 279.9731,51.4805 L279.9731,54.2031 Q279.3423,53.6221 278.7488,53.3523 Q278.1553,53.0825 277.5244,53.0825 Q276.1797,53.0825 275.4949,54.1492 Q274.8101,55.2158 274.8101,57.3159 Q274.8101,59.4077 275.4949,60.4744 Q276.1797,61.541 277.5244,61.541 Q278.1553,61.541 278.7488,61.2712 Q279.3423,61.0015 279.9731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="63" x="291.5" y="61.5352">CrearCURP</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="263.5" x2="356.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="263.5" x2="356.5" y1="81" y2="81"/>
+        <!--MD5=[595fdbd4ac63bfa771cb3253be70138d]
+class HaciendoCURP.EstudioSocioeconomico-->
+        <rect codeLine="2" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="HaciendoCURP.EstudioSocioeconomico" style="stroke:#A80036;stroke-width:1.5;" width="164" x="393" y="41"/>
+        <ellipse cx="408" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M410.4731,63.1431 Q409.8921,63.4419 409.2529,63.5913 Q408.6138,63.7407 407.9082,63.7407 Q405.4014,63.7407 404.0815,62.0889 Q402.7617,60.437 402.7617,57.3159 Q402.7617,54.1865 404.0815,52.5347 Q405.4014,50.8828 407.9082,50.8828 Q408.6138,50.8828 409.2612,51.0322 Q409.9087,51.1816 410.4731,51.4805 L410.4731,54.2031 Q409.8423,53.6221 409.2488,53.3523 Q408.6553,53.0825 408.0244,53.0825 Q406.6797,53.0825 405.9949,54.1492 Q405.3101,55.2158 405.3101,57.3159 Q405.3101,59.4077 405.9949,60.4744 Q406.6797,61.541 408.0244,61.541 Q408.6553,61.541 409.2488,61.2712 Q409.8423,61.0015 410.4731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="132" x="422" y="61.5352">EstudioSocioeconomico</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="394" x2="556" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="394" x2="556" y1="81" y2="81"/>
+        <!--MD5=[62d3eeb28a2a8dd3129af5c4e5ca13fd]
+class HaciendoCURP.Interfaz-->
+        <rect codeLine="3" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="HaciendoCURP.Interfaz" style="stroke:#A80036;stroke-width:1.5;" width="76" x="151" y="41"/>
+        <ellipse cx="166" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M168.4731,63.1431 Q167.8921,63.4419 167.2529,63.5913 Q166.6138,63.7407 165.9082,63.7407 Q163.4014,63.7407 162.0815,62.0889 Q160.7617,60.437 160.7617,57.3159 Q160.7617,54.1865 162.0815,52.5347 Q163.4014,50.8828 165.9082,50.8828 Q166.6138,50.8828 167.2612,51.0322 Q167.9087,51.1816 168.4731,51.4805 L168.4731,54.2031 Q167.8423,53.6221 167.2488,53.3523 Q166.6553,53.0825 166.0244,53.0825 Q164.6797,53.0825 163.9949,54.1492 Q163.3101,55.2158 163.3101,57.3159 Q163.3101,59.4077 163.9949,60.4744 Q164.6797,61.541 166.0244,61.541 Q166.6553,61.541 167.2488,61.2712 Q167.8423,61.0015 168.4731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="180" y="61.5352">Interfaz</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="152" x2="226" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="152" x2="226" y1="81" y2="81"/>
+        <!--MD5=[0ec1852401f13d1214fc09957ade2c39]
+class HaciendoCURP.Interfaz2-->
+        <rect codeLine="4" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="HaciendoCURP.Interfaz2" style="stroke:#A80036;stroke-width:1.5;" width="84" x="32" y="41"/>
+        <ellipse cx="47" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M49.4731,63.1431 Q48.8921,63.4419 48.2529,63.5913 Q47.6138,63.7407 46.9082,63.7407 Q44.4014,63.7407 43.0815,62.0889 Q41.7617,60.437 41.7617,57.3159 Q41.7617,54.1865 43.0815,52.5347 Q44.4014,50.8828 46.9082,50.8828 Q47.6138,50.8828 48.2612,51.0322 Q48.9087,51.1816 49.4731,51.4805 L49.4731,54.2031 Q48.8423,53.6221 48.2488,53.3523 Q47.6553,53.0825 47.0244,53.0825 Q45.6797,53.0825 44.9949,54.1492 Q44.3101,55.2158 44.3101,57.3159 Q44.3101,59.4077 44.9949,60.4744 Q45.6797,61.541 47.0244,61.541 Q47.6553,61.541 48.2488,61.2712 Q48.8423,61.0015 49.4731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="61" y="61.5352">Interfaz2</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="115" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="115" y1="81" y2="81"/>
+        <!--MD5=[dd8fa4325768cd290cd26ea68d1f867e]
+class HaciendoCURP.JFrame-->
+        <rect codeLine="5" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="HaciendoCURP.JFrame" style="stroke:#A80036;stroke-width:1.5;" width="72" x="32" y="149"/>
+        <ellipse cx="47" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M49.4731,171.1431 Q48.8921,171.4419 48.2529,171.5913 Q47.6138,171.7407 46.9082,171.7407 Q44.4014,171.7407 43.0815,170.0889 Q41.7617,168.437 41.7617,165.3159 Q41.7617,162.1865 43.0815,160.5347 Q44.4014,158.8828 46.9082,158.8828 Q47.6138,158.8828 48.2612,159.0322 Q48.9087,159.1816 49.4731,159.4805 L49.4731,162.2031 Q48.8423,161.6221 48.2488,161.3523 Q47.6553,161.0825 47.0244,161.0825 Q45.6797,161.0825 44.9949,162.1492 Q44.3101,163.2158 44.3101,165.3159 Q44.3101,167.4077 44.9949,168.4744 Q45.6797,169.541 47.0244,169.541 Q47.6553,169.541 48.2488,169.2712 Q48.8423,169.0015 49.4731,168.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="40" x="61" y="169.5352">JFrame</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="103" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="103" y1="189" y2="189"/>
+        <!--MD5=[6bc8da469580240f7c316fe914ff74d8]
+class HaciendoCURP.Main-->
+        <rect codeLine="6" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="HaciendoCURP.Main" style="stroke:#A80036;stroke-width:1.5;" width="59" x="286.5" y="149"/>
+        <ellipse cx="301.5" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M303.9731,171.1431 Q303.3921,171.4419 302.7529,171.5913 Q302.1138,171.7407 301.4082,171.7407 Q298.9014,171.7407 297.5815,170.0889 Q296.2617,168.437 296.2617,165.3159 Q296.2617,162.1865 297.5815,160.5347 Q298.9014,158.8828 301.4082,158.8828 Q302.1138,158.8828 302.7612,159.0322 Q303.4087,159.1816 303.9731,159.4805 L303.9731,162.2031 Q303.3423,161.6221 302.7488,161.3523 Q302.1553,161.0825 301.5244,161.0825 Q300.1797,161.0825 299.4949,162.1492 Q298.8101,163.2158 298.8101,165.3159 Q298.8101,167.4077 299.4949,168.4744 Q300.1797,169.541 301.5244,169.541 Q302.1553,169.541 302.7488,169.2712 Q303.3423,169.0015 303.9731,168.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="315.5" y="169.5352">Main</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="287.5" x2="344.5" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="287.5" x2="344.5" y1="189" y2="189"/>
+        <!--MD5=[33bcffeaa89fc9942334c0321aeccd43]
+class HaciendoCURP.Validaciones-->
+        <rect codeLine="7" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="HaciendoCURP.Validaciones" style="stroke:#A80036;stroke-width:1.5;" width="104" x="381" y="149"/>
+        <ellipse cx="396" cy="165" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M398.4731,171.1431 Q397.8921,171.4419 397.2529,171.5913 Q396.6138,171.7407 395.9082,171.7407 Q393.4014,171.7407 392.0815,170.0889 Q390.7617,168.437 390.7617,165.3159 Q390.7617,162.1865 392.0815,160.5347 Q393.4014,158.8828 395.9082,158.8828 Q396.6138,158.8828 397.2612,159.0322 Q397.9087,159.1816 398.4731,159.4805 L398.4731,162.2031 Q397.8423,161.6221 397.2488,161.3523 Q396.6553,161.0825 396.0244,161.0825 Q394.6797,161.0825 393.9949,162.1492 Q393.3101,163.2158 393.3101,165.3159 Q393.3101,167.4077 393.9949,168.4744 Q394.6797,169.541 396.0244,169.541 Q396.6553,169.541 397.2488,169.2712 Q397.8423,169.0015 398.4731,168.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="72" x="410" y="169.5352">Validaciones</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="382" x2="484" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="382" x2="484" y1="189" y2="189"/>
+        <!--MD5=[45efd1acf730ca923f19bedc1506787f]
+class HaciendoCURP.ActionListener-->
+        <rect codeLine="16" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="HaciendoCURP.ActionListener" style="stroke:#A80036;stroke-width:1.5;" width="112" x="139" y="149"/>
+        <ellipse cx="154" cy="165" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M150.4277,161.2651 L150.4277,159.1069 L157.8071,159.1069 L157.8071,161.2651 L155.3418,161.2651 L155.3418,169.3418 L157.8071,169.3418 L157.8071,171.5 L150.4277,171.5 L150.4277,169.3418 L152.8931,169.3418 L152.8931,161.2651 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="168" y="169.5352">ActionListener</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="140" x2="250" y1="181" y2="181"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="140" x2="250" y1="189" y2="189"/>
+        <!--MD5=[06343bf850d7d7a24456cd327e63b99b]
+class java.io.BufferedReader-->
+        <rect codeLine="8" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="java.io.BufferedReader" style="stroke:#A80036;stroke-width:1.5;" width="123" x="791.5" y="41"/>
+        <ellipse cx="806.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M808.9731,63.1431 Q808.3921,63.4419 807.7529,63.5913 Q807.1138,63.7407 806.4082,63.7407 Q803.9014,63.7407 802.5815,62.0889 Q801.2617,60.437 801.2617,57.3159 Q801.2617,54.1865 802.5815,52.5347 Q803.9014,50.8828 806.4082,50.8828 Q807.1138,50.8828 807.7612,51.0322 Q808.4087,51.1816 808.9731,51.4805 L808.9731,54.2031 Q808.3423,53.6221 807.7488,53.3523 Q807.1553,53.0825 806.5244,53.0825 Q805.1797,53.0825 804.4949,54.1492 Q803.8101,55.2158 803.8101,57.3159 Q803.8101,59.4077 804.4949,60.4744 Q805.1797,61.541 806.5244,61.541 Q807.1553,61.541 807.7488,61.2712 Q808.3423,61.0015 808.9731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="820.5" y="61.5352">BufferedReader</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="792.5" x2="913.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="792.5" x2="913.5" y1="81" y2="81"/>
+        <!--MD5=[f8e7fb54ef0487913c02137462d12c5a]
+class java.io.InputStreamReader-->
+        <rect codeLine="9" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="java.io.InputStreamReader" style="stroke:#A80036;stroke-width:1.5;" width="143" x="613.5" y="41"/>
+        <ellipse cx="628.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M630.9731,63.1431 Q630.3921,63.4419 629.7529,63.5913 Q629.1138,63.7407 628.4082,63.7407 Q625.9014,63.7407 624.5815,62.0889 Q623.2617,60.437 623.2617,57.3159 Q623.2617,54.1865 624.5815,52.5347 Q625.9014,50.8828 628.4082,50.8828 Q629.1138,50.8828 629.7612,51.0322 Q630.4087,51.1816 630.9731,51.4805 L630.9731,54.2031 Q630.3423,53.6221 629.7488,53.3523 Q629.1553,53.0825 628.5244,53.0825 Q627.1797,53.0825 626.4949,54.1492 Q625.8101,55.2158 625.8101,57.3159 Q625.8101,59.4077 626.4949,60.4744 Q627.1797,61.541 628.5244,61.541 Q629.1553,61.541 629.7488,61.2712 Q630.3423,61.0015 630.9731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="642.5" y="61.5352">InputStreamReader</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="614.5" x2="755.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="614.5" x2="755.5" y1="81" y2="81"/>
+        <!--MD5=[b9f6fdbfe51f16cffa6b1220600c2d44]
+class java.lang.String-->
+        <rect codeLine="10" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="java.lang.String" style="stroke:#A80036;stroke-width:1.5;" width="64" x="971" y="41"/>
+        <ellipse cx="986" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M988.4731,63.1431 Q987.8921,63.4419 987.2529,63.5913 Q986.6138,63.7407 985.9082,63.7407 Q983.4014,63.7407 982.0815,62.0889 Q980.7617,60.437 980.7617,57.3159 Q980.7617,54.1865 982.0815,52.5347 Q983.4014,50.8828 985.9082,50.8828 Q986.6138,50.8828 987.2612,51.0322 Q987.9087,51.1816 988.4731,51.4805 L988.4731,54.2031 Q987.8423,53.6221 987.2488,53.3523 Q986.6553,53.0825 986.0244,53.0825 Q984.6797,53.0825 983.9949,54.1492 Q983.3101,55.2158 983.3101,57.3159 Q983.3101,59.4077 983.9949,60.4744 Q984.6797,61.541 986.0244,61.541 Q986.6553,61.541 987.2488,61.2712 Q987.8423,61.0015 988.4731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="32" x="1000" y="61.5352">String</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="972" x2="1034" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="972" x2="1034" y1="81" y2="81"/>
+        <!--MD5=[3f0be8d2d1ea8a6c7739581dd4f44f6a]
+class java.net.HttpURLConnection-->
+        <rect codeLine="11" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="java.net.HttpURLConnection" style="stroke:#A80036;stroke-width:1.5;" width="142" x="1180" y="41"/>
+        <ellipse cx="1195" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1197.4731,63.1431 Q1196.8921,63.4419 1196.2529,63.5913 Q1195.6138,63.7407 1194.9082,63.7407 Q1192.4014,63.7407 1191.0815,62.0889 Q1189.7617,60.437 1189.7617,57.3159 Q1189.7617,54.1865 1191.0815,52.5347 Q1192.4014,50.8828 1194.9082,50.8828 Q1195.6138,50.8828 1196.2612,51.0322 Q1196.9087,51.1816 1197.4731,51.4805 L1197.4731,54.2031 Q1196.8423,53.6221 1196.2488,53.3523 Q1195.6553,53.0825 1195.0244,53.0825 Q1193.6797,53.0825 1192.9949,54.1492 Q1192.3101,55.2158 1192.3101,57.3159 Q1192.3101,59.4077 1192.9949,60.4744 Q1193.6797,61.541 1195.0244,61.541 Q1195.6553,61.541 1196.2488,61.2712 Q1196.8423,61.0015 1197.4731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="110" x="1209" y="61.5352">HttpURLConnection</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1181" x2="1321" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1181" x2="1321" y1="81" y2="81"/>
+        <!--MD5=[2f94ce3446da83c4525b5650294aaeff]
+class java.net.URL-->
+        <rect codeLine="12" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="java.net.URL" style="stroke:#A80036;stroke-width:1.5;" width="54" x="1091" y="41"/>
+        <ellipse cx="1106" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1108.4731,63.1431 Q1107.8921,63.4419 1107.2529,63.5913 Q1106.6138,63.7407 1105.9082,63.7407 Q1103.4014,63.7407 1102.0815,62.0889 Q1100.7617,60.437 1100.7617,57.3159 Q1100.7617,54.1865 1102.0815,52.5347 Q1103.4014,50.8828 1105.9082,50.8828 Q1106.6138,50.8828 1107.2612,51.0322 Q1107.9087,51.1816 1108.4731,51.4805 L1108.4731,54.2031 Q1107.8423,53.6221 1107.2488,53.3523 Q1106.6553,53.0825 1106.0244,53.0825 Q1104.6797,53.0825 1103.9949,54.1492 Q1103.3101,55.2158 1103.3101,57.3159 Q1103.3101,59.4077 1103.9949,60.4744 Q1104.6797,61.541 1106.0244,61.541 Q1106.6553,61.541 1107.2488,61.2712 Q1107.8423,61.0015 1108.4731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="22" x="1120" y="61.5352">URL</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1092" x2="1144" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1092" x2="1144" y1="81" y2="81"/>
+        <!--MD5=[8479184e23c2bec09445fccfd361f5d2]
+class java.util.ArrayList-->
+        <rect codeLine="13" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="java.util.ArrayList" style="stroke:#A80036;stroke-width:1.5;" width="82" x="1483" y="41"/>
+        <ellipse cx="1498" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1500.4731,63.1431 Q1499.8921,63.4419 1499.2529,63.5913 Q1498.6138,63.7407 1497.9082,63.7407 Q1495.4014,63.7407 1494.0815,62.0889 Q1492.7617,60.437 1492.7617,57.3159 Q1492.7617,54.1865 1494.0815,52.5347 Q1495.4014,50.8828 1497.9082,50.8828 Q1498.6138,50.8828 1499.2612,51.0322 Q1499.9087,51.1816 1500.4731,51.4805 L1500.4731,54.2031 Q1499.8423,53.6221 1499.2488,53.3523 Q1498.6553,53.0825 1498.0244,53.0825 Q1496.6797,53.0825 1495.9949,54.1492 Q1495.3101,55.2158 1495.3101,57.3159 Q1495.3101,59.4077 1495.9949,60.4744 Q1496.6797,61.541 1498.0244,61.541 Q1498.6553,61.541 1499.2488,61.2712 Q1499.8423,61.0015 1500.4731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="1512" y="61.5352">ArrayList</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1484" x2="1564" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1484" x2="1564" y1="81" y2="81"/>
+        <!--MD5=[bcf2fe05997e7549c3ee1a51188c70a5]
+class java.util.Arrays-->
+        <rect codeLine="14" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="java.util.Arrays" style="stroke:#A80036;stroke-width:1.5;" width="69" x="1378.5" y="41"/>
+        <ellipse cx="1393.5" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1395.9731,63.1431 Q1395.3921,63.4419 1394.7529,63.5913 Q1394.1138,63.7407 1393.4082,63.7407 Q1390.9014,63.7407 1389.5815,62.0889 Q1388.2617,60.437 1388.2617,57.3159 Q1388.2617,54.1865 1389.5815,52.5347 Q1390.9014,50.8828 1393.4082,50.8828 Q1394.1138,50.8828 1394.7612,51.0322 Q1395.4087,51.1816 1395.9731,51.4805 L1395.9731,54.2031 Q1395.3423,53.6221 1394.7488,53.3523 Q1394.1553,53.0825 1393.5244,53.0825 Q1392.1797,53.0825 1391.4949,54.1492 Q1390.8101,55.2158 1390.8101,57.3159 Q1390.8101,59.4077 1391.4949,60.4744 Q1392.1797,61.541 1393.5244,61.541 Q1394.1553,61.541 1394.7488,61.2712 Q1395.3423,61.0015 1395.9731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="37" x="1407.5" y="61.5352">Arrays</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1379.5" x2="1446.5" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1379.5" x2="1446.5" y1="81" y2="81"/>
+        <!--MD5=[5874abc0d795fa5bedc3caa05a24ca80]
+class javax.swing.JOptionPane-->
+        <rect codeLine="15" fill="#FEFECE" filter="url(#fcjtt10v42m92)" height="48" id="javax.swing.JOptionPane" style="stroke:#A80036;stroke-width:1.5;" width="102" x="1621" y="41"/>
+        <ellipse cx="1636" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <path d="M1638.4731,63.1431 Q1637.8921,63.4419 1637.2529,63.5913 Q1636.6138,63.7407 1635.9082,63.7407 Q1633.4014,63.7407 1632.0815,62.0889 Q1630.7617,60.437 1630.7617,57.3159 Q1630.7617,54.1865 1632.0815,52.5347 Q1633.4014,50.8828 1635.9082,50.8828 Q1636.6138,50.8828 1637.2612,51.0322 Q1637.9087,51.1816 1638.4731,51.4805 L1638.4731,54.2031 Q1637.8423,53.6221 1637.2488,53.3523 Q1636.6553,53.0825 1636.0244,53.0825 Q1634.6797,53.0825 1633.9949,54.1492 Q1633.3101,55.2158 1633.3101,57.3159 Q1633.3101,59.4077 1633.9949,60.4744 Q1634.6797,61.541 1636.0244,61.541 Q1636.6553,61.541 1637.2488,61.2712 Q1637.8423,61.0015 1638.4731,60.4204 Z " fill="#000000"/>
+        <text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="1650" y="61.5352">JOptionPane</text>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1622" x2="1722" y1="73" y2="73"/>
+        <line style="stroke:#A80036;stroke-width:1.5;" x1="1622" x2="1722" y1="81" y2="81"/>
+        <!--MD5=[9c479f85fb36ad90524b6d604f730f23]
+link HaciendoCURP.Interfaz to HaciendoCURP.JFrame-->
+        <path codeLine="17" d="M162.74,89 C147.31,102.52 127.45,119.92 109.9,135.3 " fill="none" id="HaciendoCURP.Interfaz-to-HaciendoCURP.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="114.28,140.76,94.62,148.68,105.05,130.23,114.28,140.76" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[1d30116b31695aca708cdacfa3500660]
+link HaciendoCURP.Interfaz to HaciendoCURP.ActionListener-->
+        <path codeLine="18" d="M190.3,89 C190.96,100.59 191.78,115.03 192.54,128.6 " fill="none" id="HaciendoCURP.Interfaz-to-HaciendoCURP.ActionListener" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="199.54,128.31,193.68,148.68,185.56,129.11,199.54,128.31" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[8cff186c95522c22db2f5eee619627a2]
+link HaciendoCURP.Interfaz2 to HaciendoCURP.JFrame-->
+        <path codeLine="19" d="M72.7,89 C72.04,100.59 71.22,115.03 70.46,128.6 " fill="none" id="HaciendoCURP.Interfaz2-to-HaciendoCURP.JFrame" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="77.44,129.11,69.32,148.68,63.46,128.31,77.44,129.11" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[57dfbed380d05ef038083142603420a3]
+link HaciendoCURP.Interfaz2 to HaciendoCURP.ActionListener-->
+        <path codeLine="20" d="M100.26,89 C115.69,102.52 135.55,119.92 153.1,135.3 " fill="none" id="HaciendoCURP.Interfaz2-to-HaciendoCURP.ActionListener" style="stroke:#A80036;stroke-width:1.0;"/>
+        <polygon fill="none" points="157.95,130.23,168.38,148.68,148.72,140.76,157.95,130.23" style="stroke:#A80036;stroke-width:1.0;"/>
+        <!--MD5=[f424000b5a9725c4c786f668bea16a92]
+link HaciendoCURP.CrearCURP to HaciendoCURP.EstudioSocioeconomico-->
+        <!--MD5=[541a88f57be80f41780307129304dbef]
+link HaciendoCURP.CrearCURP to HaciendoCURP.Main-->
+        <!--MD5=[91b7b04d03f08e2f0001e528dd86d5ce]
+link HaciendoCURP.Main to HaciendoCURP.Validaciones-->
+        <!--MD5=[1c0e2d637bc0adaedc3a49629a2499f9]
+@startuml
+class HaciendoCURP.CrearCURP
+class HaciendoCURP.EstudioSocioeconomico
+class HaciendoCURP.Interfaz
+class HaciendoCURP.Interfaz2
+class HaciendoCURP.JFrame
+class HaciendoCURP.Main
+class HaciendoCURP.Validaciones
+class java.io.BufferedReader
+class java.io.InputStreamReader
+class java.lang.String
+class java.net.HttpURLConnection
+class java.net.URL
+class java.util.ArrayList
+class java.util.Arrays
+class javax.swing.JOptionPane
+interface HaciendoCURP.ActionListener
+HaciendoCURP.Interfaz - -|> HaciendoCURP.JFrame
+HaciendoCURP.Interfaz - -|> HaciendoCURP.ActionListener
+HaciendoCURP.Interfaz2 - -|> HaciendoCURP.JFrame
+HaciendoCURP.Interfaz2 - -|> HaciendoCURP.ActionListener
+@enduml
+
+PlantUML version 1.2021.3(Mon Mar 22 10:53:19 CST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: 419
+-->
+    </g>
+</svg>

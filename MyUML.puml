@@ -1,0 +1,22 @@
+@startuml
+class HaciendoCURP.CrearCURP
+class HaciendoCURP.Interfaz
+class HaciendoCURP.Interfaz2
+class HaciendoCURP.JFrame
+class HaciendoCURP.Main
+class HaciendoCURP.Validaciones
+class java.io.BufferedReader
+class java.io.InputStreamReader
+class java.lang.String
+class java.net.HttpURLConnection
+class java.net.URL
+class java.util.ArrayList
+class java.util.Arrays
+class javax.swing.JOptionPane
+interface HaciendoCURP.ActionListener
+
+HaciendoCURP.Interfaz --|> HaciendoCURP.JFrame
+HaciendoCURP.Interfaz --|> HaciendoCURP.ActionListener
+HaciendoCURP.Interfaz2 --|> HaciendoCURP.JFrame
+HaciendoCURP.Interfaz2 --|> HaciendoCURP.ActionListener
+@enduml

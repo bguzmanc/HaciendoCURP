@@ -27,6 +27,21 @@ public class Validaciones {
         return true;
     }
     
+    public boolean validarTextFieldNumerico(String inputFieldData){
+        
+        char[] arrayInputFieldData = inputFieldData.toCharArray();
+        for(int i = 0; i<=(arrayInputFieldData.length)-1; i++){
+            try {
+                int number = Integer.parseInt(String.valueOf(arrayInputFieldData[i]));
+                return true;
+            }
+            catch(NumberFormatException e) {
+                //System.out.println("Dentro del Catch " + arrayInputFieldData[i]);
+            }            
+        }
+        return false;
+    }
+    
     public String validandoCURPGrosero(String cadenaRecibida){
         String cadenaValidada = "";
         switch(cadenaRecibida)

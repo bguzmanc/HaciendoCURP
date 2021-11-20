@@ -44,8 +44,32 @@ public class Interfaz2 extends JFrame implements ActionListener {
     private JLabel remanente;
     private JTextField txt_remanente;
     private JButton aceptar;
-    public String hostWS = "http://localhost/";
+    public String hostWS = "https://framesds.com.mx/";
     public String pathWS = "moo/ws.php?cp=";
+    
+    private JLabel p1;
+    private JComboBox combo_p1;
+    private String[] lista_p1 = {"Sin Instrucción","Preescolar","Primaria Incompleta","Primaria Completa",
+        "Secundaria Incompleta","Secundaria Completa","Preparatoria Incompleta","Preparatoria Completa",
+        "Licenciatura Incompleta","Licenciatura Completa","Posgrado"};
+    private JLabel p2;
+    private JComboBox combo_p2;
+    private String[] lista_p2 = {"0", "1", "2 o más"};
+    private JLabel p3;
+    private JComboBox combo_p3;
+    private String[] lista_p3 = {"0", "1", "2 o más"};
+    private JLabel p4;
+    private JComboBox combo_p4;
+    private String[] lista_p4 = {"NO TIENE", "SI TIENE"};
+    private JLabel p5;
+    private JComboBox combo_p5;
+    private String[] lista_p5 = {"0", "1", "2", "3", "4 o más"};
+    private JLabel p6;
+    private JComboBox combo_p6;
+    private String[] lista_p6 = {"0", "1", "2", "3", "4 o más"};
+    private JLabel resultado;
+    private JTextField txt_resultado;
+    
     
     /********************************
     *                               *
@@ -53,18 +77,18 @@ public class Interfaz2 extends JFrame implements ActionListener {
     *                               *
     ********************************/
     public Interfaz2(){
-        setTitle("Generaci�n de CURP");
-        setBounds(310, 100, 600, 550);
+        setTitle("Generación de CURP");
+        setBounds(100, 100, 1200, 550);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
  
         contenedor = getContentPane();
         contenedor.setLayout(null);
         
-        title = new JLabel("Registros B�sicos");
+        title = new JLabel("Registros Básicos");
         title.setFont(new Font("Arial", Font.PLAIN, 22));
         title.setSize(300, 30);
-        title.setLocation(210, 40);
+        title.setLocation(400, 40);
         contenedor.add(title);
         
         // Nombre, label y textfield
@@ -81,7 +105,7 @@ public class Interfaz2 extends JFrame implements ActionListener {
         contenedor.add(txt_nombre);
         
         // codigo postal, label y textfield
-        cp = new JLabel("C�digo Postal");
+        cp = new JLabel("Código Postal");
         cp.setFont(new Font("Arial", Font.PLAIN, 15));
         cp.setSize(150, 20);
         cp.setLocation(70, 150);
@@ -160,11 +184,95 @@ public class Interfaz2 extends JFrame implements ActionListener {
         txt_remanente.setLocation(200, 400);
         contenedor.add(txt_remanente);
         
-        //Bot�n de aceptar
+        // Label de P1 y Combo
+        p1 = new JLabel("¿Cuál fue el último grado de estudios?");
+        p1.setFont(new Font("Arial", Font.PLAIN, 15));
+        p1.setSize(500, 20);
+        p1.setLocation(550, 100);
+        contenedor.add(p1);
+        combo_p1 = new JComboBox(lista_p1);
+        combo_p1.setFont(new Font("Arial", Font.PLAIN, 12));
+        combo_p1.setSize(300, 20);
+        combo_p1.setLocation(800, 100);
+        contenedor.add(combo_p1);
+        
+        // Label de P2 y Combo
+        p2 = new JLabel("¿Cuántos baños completos hay en tú casa?");
+        p2.setFont(new Font("Arial", Font.PLAIN, 15));
+        p2.setSize(500, 20);
+        p2.setLocation(550, 150);
+        contenedor.add(p2);
+        combo_p2 = new JComboBox(lista_p2);
+        combo_p2.setFont(new Font("Arial", Font.PLAIN, 12));
+        combo_p2.setSize(250, 20);
+        combo_p2.setLocation(850, 150);
+        contenedor.add(combo_p2);
+        
+        // Label de P3 y Combo
+        p3 = new JLabel("¿Cuántos automóviles tienen en su hogar?");
+        p3.setFont(new Font("Arial", Font.PLAIN, 15));
+        p3.setSize(500, 20);
+        p3.setLocation(550, 200);
+        contenedor.add(p3);
+        combo_p3 = new JComboBox(lista_p3);
+        combo_p3.setFont(new Font("Arial", Font.PLAIN, 12));
+        combo_p3.setSize(250, 20);
+        combo_p3.setLocation(850, 200);
+        contenedor.add(combo_p3);
+        
+        // Label de P4 y Combo
+        p4 = new JLabel("¿Este hogar cuenta con internet?");
+        p4.setFont(new Font("Arial", Font.PLAIN, 15));
+        p4.setSize(500, 20);
+        p4.setLocation(550, 250);
+        contenedor.add(p4);
+        combo_p4 = new JComboBox(lista_p4);
+        combo_p4.setFont(new Font("Arial", Font.PLAIN, 12));
+        combo_p4.setSize(300, 20);
+        combo_p4.setLocation(800, 250);
+        contenedor.add(combo_p4);
+        
+        // Label de P5 y Combo
+        p5 = new JLabel("¿Cuántas personas trabajaron en el último mes?");
+        p5.setFont(new Font("Arial", Font.PLAIN, 15));
+        p5.setSize(500, 20);
+        p5.setLocation(550, 300);
+        contenedor.add(p5);
+        combo_p5 = new JComboBox(lista_p5);
+        combo_p5.setFont(new Font("Arial", Font.PLAIN, 12));
+        combo_p5.setSize(200, 20);
+        combo_p5.setLocation(900, 300);
+        contenedor.add(combo_p5);
+        
+        // Label de P6 y Combo
+        p6 = new JLabel("¿Cuántos cuartos se usan para dormir?");
+        p6.setFont(new Font("Arial", Font.PLAIN, 15));
+        p6.setSize(500, 20);
+        p6.setLocation(550, 350);
+        contenedor.add(p6);
+        combo_p6 = new JComboBox(lista_p6);
+        combo_p6.setFont(new Font("Arial", Font.PLAIN, 12));
+        combo_p6.setSize(280, 20);
+        combo_p6.setLocation(820, 350);
+        contenedor.add(combo_p6);
+        
+        resultado = new JLabel("Nivel socioeconomico obtenido:");
+        resultado.setFont(new Font("Arial", Font.PLAIN, 15));
+        resultado.setSize(500, 20);
+        resultado.setLocation(550, 400);
+        contenedor.add(resultado);
+        txt_resultado = new JTextField();
+        txt_resultado.setFont(new Font("Arial", Font.PLAIN, 13));
+        txt_resultado.setEditable(false);
+        txt_resultado.setSize(300, 20);
+        txt_resultado.setLocation(800, 400);
+        contenedor.add(txt_resultado);
+
+        //Bot�n de aceptar
         aceptar = new JButton("Aceptar");
         aceptar.setFont(new Font("Arial", Font.PLAIN, 15));
         aceptar.setSize(100, 20);
-        aceptar.setLocation(250, 450);
+        aceptar.setLocation(400, 450);
         aceptar.addActionListener(this);
         contenedor.add(aceptar);
         
@@ -184,10 +292,31 @@ public class Interfaz2 extends JFrame implements ActionListener {
             obtenerCols();
         } else if (event.getSource() == aceptar) {
             
-            double salario = Double.valueOf(txt_salario.getText());
-            double gastos_fijos = Double.valueOf(txt_gastos.getText());
-            double remanente = salario - gastos_fijos;
-            txt_remanente.setText(String.valueOf(remanente));
+            Validaciones DoValidations = new Validaciones();
+            if(DoValidations.validarTextFieldNumerico(txt_salario.getText())){
+                if(DoValidations.validarTextFieldNumerico(txt_gastos.getText())){
+                    double salario = Double.valueOf(txt_salario.getText());
+                    double gastos_fijos = Double.valueOf(txt_gastos.getText());
+                    double remanente = salario - gastos_fijos;
+                    txt_remanente.setText(String.valueOf(remanente));
+                    
+                    EstudioSocioeconomico HacerEstudio = new EstudioSocioeconomico();
+                    int puntaje_1 = HacerEstudio.pregunta_1((String) combo_p1.getSelectedItem());
+                    int puntaje_2 = HacerEstudio.pregunta_2((String) combo_p2.getSelectedItem());
+                    int puntaje_3 = HacerEstudio.pregunta_3((String) combo_p3.getSelectedItem());
+                    int puntaje_4 = HacerEstudio.pregunta_4((String) combo_p4.getSelectedItem());
+                    int puntaje_5 = HacerEstudio.pregunta_5((String) combo_p5.getSelectedItem());
+                    int puntaje_6 = HacerEstudio.pregunta_6((String) combo_p6.getSelectedItem());
+                    
+                    String resultadoEstudio = HacerEstudio.obtenerResultado(puntaje_1, puntaje_2, puntaje_3, puntaje_4, puntaje_5, puntaje_6);
+                    txt_resultado.setText(resultadoEstudio);
+                    
+                } else {
+                    JOptionPane.showMessageDialog(null, "Verifique los datos ingresados en Gastos");
+                }
+            } else {
+                JOptionPane.showMessageDialog(null, "Verifique los datos ingresados en Salario");
+            }
         }
     }
     
